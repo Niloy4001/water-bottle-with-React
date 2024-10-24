@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
+import { MdDelete } from "react-icons/md";
 
 
-// eslint-disable-next-line react/prop-types
-const CartModal = ({ total }) => {
+const CartModal = ({ total,handleRemove }) => {
     // console.log(total);
 
     return (
@@ -14,13 +14,16 @@ const CartModal = ({ total }) => {
                     <div className="space-y-4 mt-6">
                         {
                             total.map((item, index) => <div key={index}>
-                                <div className="grid grid-cols-5 gap-5 items-center">
+                                <div className="grid grid-cols-5  items-center">
                                     <div className="col-span-1">
-                                    <img src={item.imageUrl} className="w-full rounded-xl h-20" alt="" />
+                                        <img src={item.imageUrl} className="w-full rounded-xl h-[60px]" alt="" />
                                     </div>
-                                    <div className="col-span-4 text-black">
-                                        <h1 className="text-xl font-semibold">{item.name}</h1>
-                                        <h1 className="text-xl font-medium">{item.price}$</h1>
+                                    <div className="col-span-3 text-black pl-4">
+                                        <h1 className="text-xs md:text-xl font-semibold">{item.name}</h1>
+                                        <h1 className="text-xs md:text-xl font-medium">{item.price}$</h1>
+                                    </div>
+                                    <div className="col-span-1 flex justify-center">
+                                        <button className="text-black  text-lg md:text-2xl" onClick={()=> handleRemove(item.id)}><MdDelete /></button>
                                     </div>
                                 </div>
                             </div>)

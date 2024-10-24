@@ -42,9 +42,9 @@ const Bottles = ({handlePrice}) => {
                             <Modal modal={modal}></Modal>
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">{item.name}</h2>
-                            <p>{item.shortDescription}</p>
-                            <p>{item.price}</p>
+                            <h2 className="card-title text-base md:text-xl">{item.name}</h2>
+                            <p className="text-xs md:text-lg">{item.shortDescription}</p>
+                            <p className="text-xs md:text-lg">{item.price}</p>
                             <div className="card-actions justify-end">
                                 <button className="btn btn-primary bg-[#796ba1] text-white border-none" onClick={()=> handlePrice(item)}>Add to Cart</button>
                             </div>

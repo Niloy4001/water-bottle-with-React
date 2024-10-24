@@ -20,11 +20,16 @@ function App() {
   // console.log(parseInt(subTotal));
 
 
-  const handleCartModal =(id) =>{
+  const handleCartModal =() =>{
     document.getElementById('my_modal_3').showModal()
   }
   
-
+const handleRemove = (id) =>{
+  const remaining = total.filter((item)=> item.id !== id)
+  setTotal(remaining);
+  // console.log(id);
+  
+}
   // console.log(total);
 
 
@@ -37,6 +42,7 @@ function App() {
        quantity={quantity}
        handleCartModal={handleCartModal}
        total={total}
+       handleRemove={handleRemove}
        ></Header>
       <Banner></Banner>
       <Bottles handlePrice={handlePrice}></Bottles>

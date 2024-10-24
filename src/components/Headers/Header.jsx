@@ -2,7 +2,7 @@ import CartModal from "../CartModal";
 
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ subTotal, quantity, handleCartModal, total }) => {
+const Header = ({ subTotal, quantity, handleCartModal, total ,handleRemove }) => {
     return (
         <div className="w-full bg-[#796ba1]/[0.9] shadow-2xl sticky top-0 z-10">
             <div className="w-[90%] mx-auto py-3 md:py-6  ">
@@ -39,7 +39,7 @@ const Header = ({ subTotal, quantity, handleCartModal, total }) => {
                                         <button className="btn btn-primary btn-block bg-[#796ba1] text-white border-none"
                                             onClick={() => handleCartModal('id')}
                                         >View cart</button>
-                                        <CartModal total={total}></CartModal>
+                                        <CartModal total={total} handleRemove={handleRemove}></CartModal>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const Header = ({ subTotal, quantity, handleCartModal, total }) => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
                                 <li>
                                     <a className="justify-between">
                                         Profile
