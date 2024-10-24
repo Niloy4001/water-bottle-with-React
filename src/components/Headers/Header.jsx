@@ -1,9 +1,10 @@
 
 
-const Header = () => {
+// eslint-disable-next-line react/prop-types
+const Header = ({ subTotal, quantity }) => {
     return (
-        <div className="w-[90%] mx-auto py-7 md:py-12">
-            <div className="navbar bg-base-100">
+        <div className="w-[90%] mx-auto py-7 md:py-12 sticky top-0 z-10 ">
+            <div className="navbar bg-[#796ba1] rounded-2xl text-white">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl md:text-3xl font-bold">Wattle</a>
                 </div>
@@ -23,15 +24,15 @@ const Header = () => {
                                         strokeWidth="2"
                                         d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                                 </svg>
-                                <span className="badge badge-sm indicator-item">8</span>
+                                <span className="badge badge-sm indicator-item">{quantity}</span>
                             </div>
                         </div>
                         <div
                             tabIndex={0}
                             className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
                             <div className="card-body">
-                                <span className="text-lg font-bold">8 Items</span>
-                                <span className="text-info">Subtotal: $999</span>
+                                <span className="text-lg font-bold text-black">{quantity} Items</span>
+                                <span className="font-semibold text-black">Subtotal: ${parseInt(subTotal)}</span>
                                 <div className="card-actions">
                                     <button className="btn btn-primary btn-block">View cart</button>
                                 </div>

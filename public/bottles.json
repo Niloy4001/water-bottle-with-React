@@ -1,183 +1,202 @@
 [
-    {
-      "id": 1,
-      "name": "Stainless Steel Water Bottle",
-      "price": 15.99,
-      "seller": "HydrateCo",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 100
-    },
-    {
-      "id": 2,
-      "name": "Glass Water Bottle",
-      "price": 12.49,
-      "seller": "EcoDrink",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 75
-    },
-    {
-      "id": 3,
-      "name": "Plastic Sports Bottle",
-      "price": 8.99,
-      "seller": "FitLife",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 150
-    },
-    {
-      "id": 4,
-      "name": "Insulated Metal Bottle",
-      "price": 19.99,
-      "seller": "CoolDrink",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 50
-    },
-    {
-      "id": 5,
-      "name": "Collapsible Silicone Bottle",
-      "price": 10.99,
-      "seller": "AdventureGear",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 200
-    },
-    {
-      "id": 6,
-      "name": "Ceramic Bottle",
-      "price": 18.50,
-      "seller": "EarthWare",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 40
-    },
-    {
-      "id": 7,
-      "name": "Copper Water Bottle",
-      "price": 22.99,
-      "seller": "PureCopper",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 60
-    },
-    {
-      "id": 8,
-      "name": "Aluminum Water Bottle",
-      "price": 9.99,
-      "seller": "QuickSip",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 120
-    },
-    {
-      "id": 9,
-      "name": "BPA-Free Plastic Bottle",
-      "price": 6.99,
-      "seller": "SafeSip",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 250
-    },
-    {
-      "id": 10,
-      "name": "Insulated Tumbler Bottle",
-      "price": 14.99,
-      "seller": "ThermoFlow",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 80
-    },
-    {
-      "id": 11,
-      "name": "Glass Infuser Bottle",
-      "price": 16.99,
-      "seller": "InfuseLife",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 90
-    },
-    {
-      "id": 12,
-      "name": "Stainless Steel Flask",
-      "price": 20.00,
-      "seller": "ChillGear",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 110
-    },
-    {
-      "id": 13,
-      "name": "Sports Squeeze Bottle",
-      "price": 7.99,
-      "seller": "ActiveZone",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 180
-    },
-    {
-      "id": 14,
-      "name": "Copper Ayurvedic Bottle",
-      "price": 25.99,
-      "seller": "HealthDrink",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 30
-    },
-    {
-      "id": 15,
-      "name": "Reusable Glass Bottle",
-      "price": 13.99,
-      "seller": "EcoHydrate",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 95
-    },
-    {
-      "id": 16,
-      "name": "Travel-Friendly Plastic Bottle",
-      "price": 5.99,
-      "seller": "GoHydrate",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 220
-    },
-    {
-      "id": 17,
-      "name": "Luxury Marble Bottle",
-      "price": 29.99,
-      "seller": "EliteHydration",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 25
-    },
-    {
-      "id": 18,
-      "name": "Insulated Coffee Bottle",
-      "price": 17.50,
-      "seller": "CaffeSip",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 70
-    },
-    {
-      "id": 19,
-      "name": "Bamboo Lid Glass Bottle",
-      "price": 14.00,
-      "seller": "NaturalDrink",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Paid",
-      "quantity": 130
-    },
-    {
-      "id": 20,
-      "name": "Leak-Proof Stainless Steel Bottle",
-      "price": 24.99,
-      "seller": "HydroPro",
-      "imageUrl": "https://img.cf.rokomari.com/ProductNew20190903/260X372/Premium_Looks_Water_Bottle_450ml_Stainle-Not_Applicable-46a79-308980.jpg",
-      "shipping": "Free",
-      "quantity": 60
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Stainless Steel Water Bottle",
+    "price": 15.99,
+    "seller": "HydrateCo",
+    "imageUrl": "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 100,
+    "shortDescription": "Durable stainless steel bottle with free shipping."
+  },
+  {
+    "id": 2,
+    "name": "Glass Water Bottle",
+    "price": 12.49,
+    "seller": "EcoDrink",
+    "imageUrl": "https://images.pexels.com/photos/10035322/pexels-photo-10035322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 75,
+    "shortDescription": "Eco-friendly glass bottle with free shipping."
+  },
+  {
+    "id": 3,
+    "name": "Plastic Sports Bottle",
+    "price": 8.99,
+    "seller": "FitLife",
+    "imageUrl": "https://images.pexels.com/photos/15110905/pexels-photo-15110905/free-photo-of-a-green-aquaflask-on-a-bar-stool.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 150,
+    "shortDescription": "Affordable plastic sports bottle with paid shipping."
+  },
+  {
+    "id": 4,
+    "name": "Insulated Metal Bottle",
+    "price": 19.99,
+    "seller": "CoolDrink",
+    "imageUrl": "https://images.pexels.com/photos/11463457/pexels-photo-11463457.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 50,
+    "shortDescription": "Keep drinks hot or cold with this insulated metal bottle."
+  },
+  {
+    "id": 5,
+    "name": "Collapsible Silicone Bottle",
+    "price": 10.99,
+    "seller": "AdventureGear",
+    "imageUrl": "https://images.pexels.com/photos/14022334/pexels-photo-14022334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 200,
+    "shortDescription": "Convenient collapsible silicone bottle for easy storage."
+  },
+  {
+    "id": 6,
+    "name": "Ceramic Bottle",
+    "price": 18.50,
+    "seller": "EarthWare",
+    "imageUrl": "https://images.pexels.com/photos/9160281/pexels-photo-9160281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 40,
+    "shortDescription": "Stylish ceramic bottle with free shipping."
+  },
+  {
+    "id": 7,
+    "name": "Copper Water Bottle",
+    "price": 22.99,
+    "seller": "PureCopper",
+    "imageUrl": "https://images.pexels.com/photos/3887709/pexels-photo-3887709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 60,
+    "shortDescription": "Health-conscious copper water bottle with paid shipping."
+  },
+  {
+    "id": 8,
+    "name": "Aluminum Water Bottle",
+    "price": 9.99,
+    "seller": "QuickSip",
+    "imageUrl": "https://images.pexels.com/photos/19245661/pexels-photo-19245661/free-photo-of-white-northland-vacuum-flask-on-a-bench-covered-with-a-thick-layer-of-snow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 120,
+    "shortDescription": "Lightweight aluminum water bottle with free shipping."
+  },
+  {
+    "id": 9,
+    "name": "BPA-Free Plastic Bottle",
+    "price": 6.99,
+    "seller": "SafeSip",
+    "imageUrl": "https://images.pexels.com/photos/7690201/pexels-photo-7690201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 250,
+    "shortDescription": "Affordable and safe BPA-free plastic bottle."
+  },
+  {
+    "id": 10,
+    "name": "Insulated Tumbler Bottle",
+    "price": 14.99,
+    "seller": "ThermoFlow",
+    "imageUrl": "https://images.pexels.com/photos/11463477/pexels-photo-11463477.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 80,
+    "shortDescription": "Stylish insulated tumbler bottle with free shipping."
+  },
+  {
+    "id": 11,
+    "name": "Glass Infuser Bottle",
+    "price": 16.99,
+    "seller": "InfuseLife",
+    "imageUrl": "https://images.pexels.com/photos/593099/pexels-photo-593099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 90,
+    "shortDescription": "Infuse flavors with this glass infuser bottle."
+  },
+  {
+    "id": 12,
+    "name": "Stainless Steel Flask",
+    "price": 20.00,
+    "seller": "ChillGear",
+    "imageUrl": "https://images.pexels.com/photos/13469621/pexels-photo-13469621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 110,
+    "shortDescription": "Premium stainless steel flask with paid shipping."
+  },
+  {
+    "id": 13,
+    "name": "Sports Squeeze Bottle",
+    "price": 7.99,
+    "seller": "ActiveZone",
+    "imageUrl": "https://images.pexels.com/photos/5274793/pexels-photo-5274793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 180,
+    "shortDescription": "Convenient sports squeeze bottle for active use."
+  },
+  {
+    "id": 14,
+    "name": "Copper Ayurvedic Bottle",
+    "price": 25.99,
+    "seller": "HealthDrink",
+    "imageUrl": "https://images.pexels.com/photos/7815024/pexels-photo-7815024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 30,
+    "shortDescription": "Traditional Ayurvedic copper bottle with paid shipping."
+  },
+  {
+    "id": 15,
+    "name": "Reusable Glass Bottle",
+    "price": 13.99,
+    "seller": "EcoHydrate",
+    "imageUrl": "https://images.pexels.com/photos/14473909/pexels-photo-14473909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 95,
+    "shortDescription": "Reusable glass bottle for eco-friendly hydration."
+  },
+  {
+    "id": 16,
+    "name": "Travel-Friendly Plastic Bottle",
+    "price": 5.99,
+    "seller": "GoHydrate",
+    "imageUrl": "https://images.pexels.com/photos/19155039/pexels-photo-19155039/free-photo-of-steel-travel-mug-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 220,
+    "shortDescription": "Compact travel-friendly plastic bottle with paid shipping."
+  },
+  {
+    "id": 17,
+    "name": "Luxury Marble Bottle",
+    "price": 29.99,
+    "seller": "EliteHydration",
+    "imageUrl": "https://images.pexels.com/photos/15926573/pexels-photo-15926573/free-photo-of-thermos-on-gray-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 25,
+    "shortDescription": "Elegant luxury marble bottle with free shipping."
+  },
+  {
+    "id": 18,
+    "name": "Insulated Coffee Bottle",
+    "price": 17.50,
+    "seller": "CaffeSip",
+    "imageUrl": "https://images.pexels.com/photos/17662565/pexels-photo-17662565/free-photo-of-metal-thermos-on-the-balcony-in-the-mountains-travel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 70,
+    "shortDescription": "Perfect for coffee lovers, insulated to keep drinks warm."
+  },
+  {
+    "id": 19,
+    "name": "Bamboo Lid Glass Bottle",
+    "price": 14.00,
+    "seller": "NaturalDrink",
+    "imageUrl": "https://images.pexels.com/photos/18381807/pexels-photo-18381807/free-photo-of-a-transparent-reusable-water-bottle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Paid",
+    "quantity": 130,
+    "shortDescription": "Sleek glass bottle with a natural bamboo lid."
+  },
+  {
+    "id": 20,
+    "name": "Leak-Proof Stainless Steel Bottle",
+    "price": 24.99,
+    "seller": "HydroPro",
+    "imageUrl": "https://images.pexels.com/photos/1342529/pexels-photo-1342529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "shipping": "Free",
+    "quantity": 60,
+    "shortDescription": "Leak-proof stainless steel bottle for reliable hydration."
+  }
+]
