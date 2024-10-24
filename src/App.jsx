@@ -17,7 +17,12 @@ function App() {
 
   const subTotal = total.reduce((accumulator, item) => accumulator + item.price, 0);
   const quantity = total.length
-  console.log(parseInt(subTotal));
+  // console.log(parseInt(subTotal));
+
+
+  const handleCartModal =(id) =>{
+    document.getElementById('my_modal_3').showModal()
+  }
   
 
   // console.log(total);
@@ -27,7 +32,12 @@ function App() {
     <>
 
 
-      <Header subTotal={subTotal} quantity={quantity}></Header>
+      <Header 
+       subTotal={subTotal}
+       quantity={quantity}
+       handleCartModal={handleCartModal}
+       total={total}
+       ></Header>
       <Banner></Banner>
       <Bottles handlePrice={handlePrice}></Bottles>
       <Footer></Footer>
